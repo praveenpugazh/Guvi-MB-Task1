@@ -1,0 +1,20 @@
+List 5 differences between Browser JS vs Node Js.
+
+Node JS						Browser JS
+Node doesn't have a predefined "window" 	"window" is a predefined global object which has functions and attributes, 
+object cause it doesn't have a window to 	that have to deal with window that has been drawn.
+draw anything. 	
+
+"location" object is related to a 		"location" is another predefined object in browsers, that has all the 
+particular url; that means it is for page 	information about the url we have loaded.
+specific. So, node doesn't require that.
+
+Ofcourse Node doesn't have "document" 		"document", which is also another predefined global variable in browsers, 
+object also, cause it never have to render 	has the html which is rendered.
+anything in a page.
+
+In Node everything is a module. You must 	Moduling is not mandatory in client side JavaScript, i.e. in browsers.
+keep your code inside a module.
+
+ "require" object is predefined in Node 	Browsers don't have "require" predefined. You may include it in your app for asynchronous file loading.
+which is used to include modules in the app.
